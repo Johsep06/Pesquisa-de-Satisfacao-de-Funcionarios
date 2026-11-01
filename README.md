@@ -121,22 +121,31 @@ satisfacao_media = avaliacao_recente['Satisfaction'].mean()  # 3.7
 
 Requisitos: Python 3.10+ e as bibliotecas pandas e matplotlib.
 
-```bash
-# 1. Clone o repositório
-git clone ttps://github.com/Johsep06/Pesquisa-de-Satisfacao-de-Funcionarios.git
-cd <Pesquisa-de-Satisfacao-de-Funcionarios>
 
-# 2. (Opcional) crie um ambiente virtual
+Clone o repositório
+```bash
+git clone ttps://github.com/Johsep06/Pesquisa-de-Satisfacao-de-Funcionarios.git
+```
+
+```bash
+cd Pesquisa-de-Satisfacao-de-Funcionarios
+```
+
+(Opcional) crie um ambiente virtual
+```bash
 python -m venv .venv
 source .venv/bin/activate      # Linux/macOS
 # .venv\Scripts\activate       # Windows
-
-# 3. Instale as dependências
-pip install -r requirements.txt
-
-# 4. Abra o notebook
-jupyter notebook avaliacao_satisfacao.ipynb
 ```
+
+Instale as dependências
+```bash
+pip install -r requirements.txt
+```
+
+Abra o notebook
+jupyter notebook avaliacao_satisfacao.ipynb
+
 
 Ou rode diretamente no Google Colab / Jupyter.
 
